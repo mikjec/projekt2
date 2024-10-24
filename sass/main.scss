@@ -14,7 +14,7 @@ html {
 body {
 	font-family: 'Montserrat', sans-serif;
 	background-color: $bg-color;
-	
+
 	// overflow-x: hidden;
 }
 
@@ -51,11 +51,12 @@ nav {
 	.navbar-brand {
 		font-weight: bold;
 		text-decoration: none;
-		i{
+		i {
 			color: #039dff;
 		}
 	}
-	.navbar-brand:hover,.navbar-brand:focus{
+	.navbar-brand:hover,
+	.navbar-brand:focus {
 		color: $white;
 	}
 	.nav-link,
