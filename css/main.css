@@ -88,6 +88,9 @@ nav .navbar-brand {
   font-weight: bold;
   text-decoration: none;
 }
+nav .navbar-brand i {
+  color: #039dff;
+}
 nav .navbar-brand:hover, nav .navbar-brand:focus {
   color: #fff;
 }

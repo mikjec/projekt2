@@ -51,6 +51,9 @@ nav {
 	.navbar-brand {
 		font-weight: bold;
 		text-decoration: none;
+		i{
+			color: #039dff;
+		}
 	}
 	.navbar-brand:hover,.navbar-brand:focus{
 		color: $white;
