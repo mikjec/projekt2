@@ -53,7 +53,6 @@ html {
 body {
   font-family: "Montserrat", sans-serif;
   background-color: #ebecf2;
-  overflow-x: hidden;
 }
 
 .blue-text {
@@ -87,6 +86,10 @@ nav .navbar-toggler {
 }
 nav .navbar-brand {
   font-weight: bold;
+  text-decoration: none;
+}
+nav .navbar-brand:hover, nav .navbar-brand:focus {
+  color: #fff;
 }
 nav .nav-link,
 nav .navbar-nav .show > .nav-link,
