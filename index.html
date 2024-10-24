@@ -18,6 +18,13 @@
     </head>
 
     <body data-bs-spy="scroll" data-bs-target="#navId">
+
+        <script>
+            window.onload = function () {
+                window.scrollTo(0, 0); // Ustawienie scrolla na początek strony
+            };
+        </script>
+
         <nav class="navbar navbar-expand-lg position-fixed top-0 w-100 py-3" id="navId">
             <div class="container">
                 <a class="navbar-brand " href="#"><i class="fa-sharp fa-solid fa-headset"></i> pro<span
@@ -43,12 +50,12 @@
 
         <header class="hero-img" id="home">
             <div class="hero-text text-center p-2">
-                <h1 data-aos="fade-up" data-aos-duration="600"
-                data-aos-anchor-placement="top-bottom" data-aos-delay="50">witajcie w pro<span class="blue-text">gamers</span></h1>
-                <p data-aos="fade-up" data-aos-duration="600"
-                data-aos-anchor-placement="top-bottom" data-aos-delay="150">W miejscu, gdzie gry tworzymy z pasją</p>
-                <a href="#aboutus" class="btn btn-outline-light mt-2 text-uppercase" data-aos="fade-up" data-aos-duration="600"
-                data-aos-anchor-placement="top-bottom" data-aos-delay="250">poznaj nas</a>
+                <h1 data-aos="fade-up" data-aos-duration="600" data-aos-anchor-placement="top-bottom"
+                    data-aos-delay="50">witajcie w pro<span class="blue-text">gamers</span></h1>
+                <p data-aos="fade-up" data-aos-duration="600" data-aos-anchor-placement="top-bottom"
+                    data-aos-delay="150">W miejscu, gdzie gry tworzymy z pasją</p>
+                <a href="#aboutus" class="btn btn-outline-light mt-2 text-uppercase" data-aos="fade-up"
+                    data-aos-duration="600" data-aos-anchor-placement="top-bottom" data-aos-delay="250">poznaj nas</a>
             </div>
             <div class="hero-shadow"></div>
 
@@ -120,7 +127,7 @@
                             <p class="aboutus-hero-text">Gry świetnie prezentują się na konsoli od Sony!</p>
 
                         </div>
-                        <div class="col-lg-4 text-center aboutus-hero-item" data-aos="fade-up" data-aos-duration="700" >
+                        <div class="col-lg-4 text-center aboutus-hero-item" data-aos="fade-up" data-aos-duration="700">
                             <p class="aboutus-hero-title mb-0">xbox</p>
                             <p><i class="fa-brands fa-xbox"></i></p>
                             <p class="aboutus-hero-text">Fani Xboxa spędzą z nami mnóstwo godzin!</p>
@@ -136,7 +143,8 @@
                 <div class="container">
                     <h2 class="section-title">portfolio</h2>
                     <div class="underline"></div>
-                    <div id="carouselExampleCaptions" class="carousel slide d-none d-lg-block"  data-aos="zoom-in-down" data-aos-duration="800">
+                    <div id="carouselExampleCaptions" class="carousel slide d-none d-lg-block" data-aos="zoom-in-down"
+                        data-aos-duration="800">
                         <div class="carousel-indicators">
                             <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0"
                                 class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -174,7 +182,7 @@
                     </div>
 
                     <div class="card-group d-lg-none">
-                        <div class="card me-3"  data-aos="flip-left" data-aos-duration="600">
+                        <div class="card me-3" data-aos="flip-left" data-aos-duration="600">
                             <img src="./img/car-small.jpg" class="card-img-top" alt="...">
                             <div class="card-body">
                                 <h5 class="card-title">Racing GT</h5>
@@ -184,7 +192,7 @@
                                 </p>
                             </div>
                         </div>
-                        <div class="card"  data-aos="flip-right" data-aos-duration="600">
+                        <div class="card" data-aos="flip-right" data-aos-duration="600">
                             <img src="./img/soccer-small.jpg" class="card-img-top" alt="...">
                             <div class="card-body">
                                 <h5 class="card-title">Pro-X Soccer</h5>
@@ -206,7 +214,8 @@
                     <div class="underline"></div>
 
                     <div class="row price-wrap justify-content-center text-center">
-                        <div class=" price-card col-md-5  col-xl-3" data-aos="fade-up"  data-aos-duration="800" data-aos-delay="00">
+                        <div class=" price-card col-md-5  col-xl-3" data-aos="fade-up" data-aos-duration="800"
+                            data-aos-delay="00">
                             <p class="price-title">mobile</p>
                             <hr>
                             <p><span>Urządzenia: </span><i class="fas fa-mobile-alt"></i></p>
@@ -216,7 +225,8 @@
                             <p class="price-tag">499zł</p>
                             <button class="btn btn-secondary">zamawiam</button>
                         </div>
-                        <div class=" price-card col-md-5   col-xl-3" data-aos="fade-up"  data-aos-duration="800" data-aos-delay="100">
+                        <div class=" price-card col-md-5   col-xl-3" data-aos="fade-up" data-aos-duration="800"
+                            data-aos-delay="100">
                             <p class="price-title">mobile & PC</p>
                             <hr>
                             <p><span>Urządzenia: </span><i class="fas fa-mobile-alt"></i> <i class="fas fa-desktop"></i>
@@ -230,7 +240,8 @@
 
 
                         </div>
-                        <div class=" price-card col-md-5  col-xl-3" data-aos="fade-up"  data-aos-duration="800" data-aos-delay="200">
+                        <div class=" price-card col-md-5  col-xl-3" data-aos="fade-up" data-aos-duration="800"
+                            data-aos-delay="200">
                             <p class="price-title">full pack</p>
                             <hr>
                             <p><span>Urządzenia: </span><i class="fas fa-mobile-alt"></i> <i class="fas fa-desktop"></i>
@@ -332,32 +343,38 @@
                     <h2 class="section-title">osiągnięcia</h2>
                     <div class="underline"></div>
                     <div class=" row text-center achievments-wrap">
-                        <div class="achievment col-xl-2 col-12 col-md-6 col-lg-4" data-aos="zoom-in-up" data-aos-duration="500">
+                        <div class="achievment col-xl-2 col-12 col-md-6 col-lg-4" data-aos="zoom-in-up"
+                            data-aos-duration="500">
                             <i class="fa-solid fa-thumbs-up icon"></i>
                             <p class="score">100%</p>
                             <p class="text">zadowolonych klientów</p>
                         </div>
-                        <div class="achievment col-xl-2 col-12 col-md-6 col-lg-4" data-aos="zoom-in-up" data-aos-duration="500">
+                        <div class="achievment col-xl-2 col-12 col-md-6 col-lg-4" data-aos="zoom-in-up"
+                            data-aos-duration="500">
                             <i class="fa-solid fa-trophy icon"></i>
                             <p class="score">37</p>
                             <p class="text">zodbytych nagród</p>
                         </div>
-                        <div class="achievment col-xl-2 col-12 col-md-6 col-lg-4" data-aos="zoom-in-up" data-aos-duration="500">
+                        <div class="achievment col-xl-2 col-12 col-md-6 col-lg-4" data-aos="zoom-in-up"
+                            data-aos-duration="500">
                             <i class="fa-solid fa-people-group icon"></i>
                             <p class="score">143</p>
                             <p class="text">pracowników</p>
                         </div>
-                        <div class="achievment col-xl-2 col-12 col-md-6 col-lg-4" data-aos="zoom-in-up" data-aos-duration="500">
+                        <div class="achievment col-xl-2 col-12 col-md-6 col-lg-4" data-aos="zoom-in-up"
+                            data-aos-duration="500">
                             <i class="fa-regular fa-building icon"></i>
                             <p class="score">7</p>
                             <p class="text">nowoczesnych biur</p>
                         </div>
-                        <div class="achievment col-xl-2 col-12 col-md-6 col-lg-4" data-aos="zoom-in-up" data-aos-duration="500">
+                        <div class="achievment col-xl-2 col-12 col-md-6 col-lg-4" data-aos="zoom-in-up"
+                            data-aos-duration="500">
                             <i class="fa-solid fa-dice icon"></i>
                             <p class="score">58</p>
                             <p class="text">stworzonych gier</p>
                         </div>
-                        <div class="achievment col-xl-2 col-12 col-md-6 col-lg-4" data-aos="zoom-in-up" data-aos-duration="500">
+                        <div class="achievment col-xl-2 col-12 col-md-6 col-lg-4" data-aos="zoom-in-up"
+                            data-aos-duration="500">
                             <i class="fa-solid fa-share-nodes icon"></i>
                             <p class="score">80.000</p>
                             <p class="text">fanów w social media</p>
@@ -419,8 +436,8 @@
         <script>
             AOS.init({
                 startEvent: 'DOMContentLoaded',
-                offset:200,
-                once:true,
+                offset: 200,
+                once: true,
             });
         </script>
         <script src="./js/script.js"></script>
